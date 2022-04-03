@@ -1,0 +1,22 @@
+.projects-container {
+  border: 1px solid #535050;
+  width: 1000px;
+  height: 500px;
+  background: #050505ab;
+  border-radius: 37px;
+}
+.container {
+  float: left;
+  padding: 100px 0px 250px 225px;
+  animation: fadeInDown 1s ease-in-out;
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
